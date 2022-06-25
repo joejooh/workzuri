@@ -1,0 +1,16 @@
+body{
+    background-color: red;
+}
+@media screen and (max-width:992px) {
+    body{
+        background-color: aqua;
+        color: gray;
+    }
+}
+@media  (max-width:665px) and (min-width:365px) {
+    body{
+        background-color: indianred;
+        color: indigo;
+    }
+    
+}

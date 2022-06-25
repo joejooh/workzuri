@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+body{
+   background-image: url(bg-intro-desktop.png);
+   background-color: rgb(250, 117, 69); 
+     
+}
+
+
+        
+   
+   
+
+   main{  
+         
+         
+   
+      display: flex;
+      justify-content: center;
+      
+      align-items: center;
+      
+      
+      gap: 30px;
+      
+
+   }
+ 
+ .yhh{
+   padding: 10px;
+   
+   
+ }
+
+.runn  {
+   width: 500px;
+   
+
+
+   
+
+  
+   
+   
+   
+}
+
+#uu{
+    
+
+   
+     background-color: darkblue;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 20px;
+
+   
+
+   
+}
+
+
+   
+
+   
+   
+
+   
+
+   
+   
+
+.nuu{
+   width:450px;
+   height:40px;
+   margin-top: 20px;
+   margin-left: 25px;
+   
+ 
+   
+   
+
+}
+
+   
+
+
+   @media screen and (max-width:1440px) { 
+      main{  width: 100%;
+         
+         
+   
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         
+         gap: 50px;
+
+      }
+
+      
+       
+   }
+   @media screen  and (max-width:1000px) {
+       main{
+          
+         
+         
+   
+            display: flex;
+            flex-direction: column;
+      
+            
+
+         
+       
+   }
+   .yhh{
+       width: fit-content;
+   }
+   .runn{
+  
+   
+      width: 90%;
+      height: 80%;
+      margin: auto;
+      
+   
+      
+      text-align: center;
+      color: gray;
+      
+      
+   }
+   
+   #uu{
+       
+   
+      
+        background-color: darkblue;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 20px;
+      width: 90%;
+      margin: auto;
+   
+      
+   
+      
+   }
+   .nuu{
+      width: 400px;
+      height:45px;
+      margin-top: 20px;
+      border-radius: 5px;
+   
+   }
+   
+   
+
+   
+   }
